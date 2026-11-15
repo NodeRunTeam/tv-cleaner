@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.tvcleaner"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 34
         versionCode = 3
         versionName = "2.1"
