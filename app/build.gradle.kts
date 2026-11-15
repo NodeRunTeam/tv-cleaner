@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.tvcleaner"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "2.1"
     }
 
     compileOptions {
@@ -22,4 +22,9 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+}
+
+dependencies {
+    implementation("dev.rikka.shizuku:api:13.1.5")
+    implementation("dev.rikka.shizuku:provider:13.1.5")
 }
